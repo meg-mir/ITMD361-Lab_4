@@ -5,79 +5,85 @@
     <title>ITMD 361 Lab 4</title>
   </head>
   <body>
-  	<form method="post" autocomplete=on action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+    <form method="post" autocomplete=on action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
 
   <h1>Volunteer Form</h1>
   <fieldset>
-    <legend><strong>My Info</strong></legend>
-  	  <div>
-  		  <label>First Name:<input type="text" name="first_name_field" placeholder="first name"></label>
-  		</div>
-  		<div>
-  			<label>Last Name:<input type="text" name="last_name_field" placeholder="last name"></label>
-  		</div>
-  		<div>
-  			<label>Phone Number:<input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"></label>
-  		</div>
-  		<div>
-  			<label>Email Address:<input type="email" name="email_field" placeholder="123@email.com"></label>
-  		</div>
-  		<div>
-  			Gender: Male <input type="radio" name="gender_field" value="Female"> Female: <input type="radio" name="gender_field" value="Female">
-  		</div>  	
-  		<div>
-  		  Age: <select name="age_field" id="age">
-  		    <option value="under 18">under 18</option>
-  		    <option value="18 - 24">18 - 24</option>
-  		    <option value="25 - 34">25 - 34</option>
-  		    <option value="35 - 44">35 - 44</option>
-  		    <option value="45 - 54">45 - 54</option>
-  		    <option value="55 - 64">55 - 64</option>
-  		    <option value="65 and over">65 and over</option>
-  	    </select>
+    <legend></legend>
+      <div>
+        <h3><b>My Info</b></h3>
+      </div>
+      <div>
+        <label>First Name:<input type="text" name="first_name_field" placeholder="first name"></label>
+      </div>
+      <div>
+        <label>Last Name:<input type="text" name="last_name_field" placeholder="last name"></label>
+      </div>
+      <div>
+        <label>Phone Number:<input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"></label>
+      </div>
+      <div>
+        <label>Email Address:<input type="email" name="email_field" placeholder="123@email.com"></label>
+      </div>
+      <div>
+        Gender: Male <input type="radio" name="gender_field" value="Male"> Female: <input type="radio" name="gender_field" value="Female">
+      </div>    
+      <div>
+        Age: <select name="age_field" id="age">
+            <option value="under 18">under 18</option>
+            <option value="18 - 24">18 - 24</option>
+            <option value="25 - 34">25 - 34</option>
+            <option value="35 - 44">35 - 44</option>
+            <option value="45 - 54">45 - 54</option>
+            <option value="55 - 64">55 - 64</option>
+            <option value="65 and over">65 and over</option>
+        </select>
       </div>
   </fieldset>
   <h3><b>My Availability</b></h3>
   <fieldset>
-    <legend>Days Available:</legend>
+    <legend></legend>
       <div>
-      	<input type="checkbox" id="Sunday" name="available_field[]" value="Sunday">
-      	<label for="Sunday">Sunday</label><br>
+        <p>Days Available:</p>
       </div>
       <div>
-      	<input type="checkbox" id="Monday" name="available_field[]" value="Monday">
-      	<label for="Monday">Monday</label><br>
+        <input type="checkbox" id="Sunday" name="available_field[]" value="Sunday">
+        <label for="Sunday">Sunday</label><br>
       </div>
       <div>
-      	<input type="checkbox" id="Tuesday" name="available_field[]" value="Tuesday">
-      	<label for="Tuesday">Tuesday</label><br>
+        <input type="checkbox" id="Monday" name="available_field[]" value="Monday">
+        <label for="Monday">Monday</label><br>
       </div>
       <div>
-      	<input type="checkbox" id="Wednesday" name="available_field[]" value="Wednesday">
-      	<label for="Wednesday">Wednesday</label><br>
+        <input type="checkbox" id="Tuesday" name="available_field[]" value="Tuesday">
+        <label for="Tuesday">Tuesday</label><br>
       </div>
       <div>
-      	<input type="checkbox" id="Thursday" name="available_field[]" value="Thursday">
-      	<label for="Thursday">Thursday</label><br>
+        <input type="checkbox" id="Wednesday" name="available_field[]" value="Wednesday">
+        <label for="Wednesday">Wednesday</label><br>
       </div>
       <div>
-      	<input type="checkbox" id="Friday" name="available_field[]" value="Friday">
-      	<label for="Friday">Friday</label><br>
+        <input type="checkbox" id="Thursday" name="available_field[]" value="Thursday">
+        <label for="Thursday">Thursday</label><br>
       </div>
       <div>
-      	<input type="checkbox" id="Saturday" name="available_field[]" value="Saturday">
-      	<label for="Saturday">Saturday</label><br>
+        <input type="checkbox" id="Friday" name="available_field[]" value="Friday">
+        <label for="Friday">Friday</label><br>
       </div>
       <div>
-      	<textarea name="comments_field" rows="15" cols="35" placeholder="Any Comments?"></textarea>
-      	<br><br>
+        <input type="checkbox" id="Saturday" name="available_field[]" value="Saturday">
+        <label for="Saturday">Saturday</label><br>
       </div>
       <div>
-      	<input type="hidden" name="hidden_field" value="mmiranda2">
+        <textarea name="comments_field" rows="15" cols="35" placeholder="Any Comments?"></textarea>
+        <br><br>
+      </div>
+      <div>
+        <input type="hidden" name="hidden_field" value="mmiranda2">
       </div>
   </fieldset>
   <fieldset>
-  	<input type="submit" name="Send Me" value="Send Me">
+    <input type="submit" name="Send Me" value="Send Me">
   </fieldset>
   </form>
 </body>
